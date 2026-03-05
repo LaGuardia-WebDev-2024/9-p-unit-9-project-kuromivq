@@ -175,7 +175,6 @@ if(key == 'o'){
   
 };
 
-
 var drawScene = function(){
 
     image(sceneImage, 0, 0, 600, 400);
