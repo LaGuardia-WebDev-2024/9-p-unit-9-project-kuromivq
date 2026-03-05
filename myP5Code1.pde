@@ -17,11 +17,11 @@ var lastImage = loadImage ("https://mail.google.com/mail/u/0?ui=2&ik=86562e6de9&
 
 //Variable Declarations
 var sceneImage = caveSceneImage;
-var sceneText = "Lets get started? [Press e for english and n for non-english]";
+var sceneText = "Lets get started? click s to reset at anytime [Press e for english and n for non-english]";
 
 
 draw = function(){
-    
+ 
    drawScene();
 
 
@@ -186,4 +186,6 @@ var drawScene = function(){
     textSize(20);
    
     text(sceneText, 10, 375);
+ 
 };
+
