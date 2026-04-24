@@ -21,7 +21,10 @@ var sceneText = "Lets get started? click s to reset at anytime [Press e for engl
 
 
 draw = function(){
- 
+
+ if(mousePressed){
+  text("MUSIC",random(0,600),random(0,400));
+ }
    drawScene();
 
 
